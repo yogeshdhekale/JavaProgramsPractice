@@ -111,6 +111,5 @@ public class Practice_Problem06 {
         }
         else
             System.out.println("Not sorted");
-
     }
 }

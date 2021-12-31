@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Learn_Array {
     public static void main(String[] args) {
         int [] marks = new int[5];
@@ -23,5 +25,18 @@ public class Learn_Array {
         for (String element: days){
             System.out.println(element);
         }
+
+        ArrayList<String> test1 = new ArrayList<>();
+        test1.add("QA Testing");
+        test1.add("QA");
+        test1.add("Test");
+        test1.add("Test_1");
+        test1.add("Test_2");
+        test1.add("Test_3");
+        test1.add(0, "December 2021");
+        for (String value: test1) {
+            System.out.println(value);
+        }
+
     }
 }
